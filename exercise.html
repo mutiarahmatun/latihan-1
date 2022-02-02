@@ -4,9 +4,37 @@
     <title>Mutia Rahmatun Husna</title>
     <link rel="icon" type="image/x-icon" href="Mutia.jpg" />
   </head>
+
+  <style>
+    body {
+      /* background-color: gray; */
+      /* background-color:rgb(253, 185, 200); */
+      background-color: rgb(253, 185, 200);
+      /* background-image: url("Mutia.jpg"); */
+    }
+
+    .title {
+      color: black;
+      text-align: center;
+    }
+
+    #idContent {
+      font-family: verdana;
+      font-size: 14px;
+      color: green;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+      border-style: dotted;
+    }
+  </style>
+
   <body>
     <!-- INI BAGIAN NAMA -->
-    <h1>Mutia Rahmatun Husna</h1>
+    <h1 class="title">Mutia Rahmatun Husna</h1>
 
     <!-- INI SECTION ALAMAT -->
     <section>
@@ -18,8 +46,8 @@
 
     <!-- INI SECTION PERSONAL PROFILE -->
     <section>
-      <h3>PERSONAL PROFILE</h3>
-      <p>
+      <h3 class="title">PERSONAL PROFILE</h3>
+      <p id="idContent">
         I am interested in software engineering, business, and android
         development. I have been working as a Frontend Engineer, Android
         Developer, and Project Manager. I have 4+ years of experience in the IT
@@ -32,7 +60,7 @@
     <section>
       <h3>EDUCATION</h3>
       <section>
-        <h4>UNIVERSITAS INDONESIA</h4>
+        <h4 style="color: hotpink">UNIVERSITAS INDONESIA</h4>
         Bachelor’s degree, majoring Computer Science <br />
         Thesis : Creating an application for Study Al-Qur’an <br />
       </section>
@@ -48,5 +76,23 @@
         </ul>
       </section>
     </section>
+
+    <table>
+      <tr>
+        <th>Nama</th>
+        <th>No. HP</th>
+        <th>Asal</th>
+      </tr>
+      <tr>
+        <td>John F. Kennedy</td>
+        <td>082260003000</td>
+        <td>Banyumas</td>
+      </tr>
+      <tr>
+        <td>Raihan Syafdian</td>
+        <td>081234657890</td>
+        <td>Surabaya</td>
+      </tr>
+    </table>
   </body>
 </html>
