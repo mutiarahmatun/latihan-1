@@ -7,20 +7,35 @@
 
   <style>
     body {
-      /* background-color: gray; */
-      /* background-color:rgb(253, 185, 200); */
       background-color: rgb(253, 185, 200);
-      /* background-image: url("Mutia.jpg"); */
     }
 
-    .title {
-      color: black;
+    .heading {
       text-align: center;
+      font-size: 50px;
     }
 
-    #idContent {
+    .title-1 {
+      color: black;
+      text-align: left;
+      font-size: 30px;
+    }
+
+    .title-2 {
+      color: black;
+      text-align: left;
+      font-size: 22px;
+    }
+
+    #idContent1 {
       font-family: verdana;
       font-size: 14px;
+      color: green;
+    }
+
+    #idContent2 {
+      font-family: verdana;
+      font-size: 10px;
       color: green;
     }
 
@@ -28,13 +43,13 @@
     tr,
     th,
     td {
-      border-style: dotted;
+      border-style: groove;
     }
   </style>
 
   <body>
     <!-- INI BAGIAN NAMA -->
-    <h1 class="title">Mutia Rahmatun Husna</h1>
+    <h1 class="heading">Mutia Rahmatun Husna</h1>
 
     <!-- INI SECTION ALAMAT -->
     <section>
@@ -42,11 +57,10 @@
       mutia.husnarahmatun@gmail.com<br />
       (+62) 822 6091 6204
     </section>
-    <br />
 
     <!-- INI SECTION PERSONAL PROFILE -->
     <section>
-      <h3 class="title">PERSONAL PROFILE</h3>
+      <h3 class="title-1">PERSONAL PROFILE</h3>
       <p id="idContent">
         I am interested in software engineering, business, and android
         development. I have been working as a Frontend Engineer, Android
@@ -58,14 +72,16 @@
 
     <!-- INI SECTION EDUCATION -->
     <section>
-      <h3>EDUCATION</h3>
+      <h3 class="title-1">EDUCATION</h3>
       <section>
-        <h4 style="color: hotpink">UNIVERSITAS INDONESIA</h4>
-        Bachelor’s degree, majoring Computer Science <br />
-        Thesis : Creating an application for Study Al-Qur’an <br />
+        <h4 class="title-2">UNIVERSITAS INDONESIA</h4>
+        <p>
+          Bachelor’s degree, majoring Computer Science <br />
+          Thesis : Creating an application for Study Al-Qur’an <br />
+        </p>
       </section>
       <section>
-        <h4>BANGKIT ACADEMY</h4>
+        <h4 class="title-2">BANGKIT ACADEMY</h4>
         <ul>
           <li>Mobile development android learning path</li>
           <li>Coursework in Kotlin and Java</li>
@@ -77,22 +93,88 @@
       </section>
     </section>
 
-    <table>
-      <tr>
-        <th>Nama</th>
-        <th>No. HP</th>
-        <th>Asal</th>
-      </tr>
-      <tr>
-        <td>John F. Kennedy</td>
-        <td>082260003000</td>
-        <td>Banyumas</td>
-      </tr>
-      <tr>
-        <td>Raihan Syafdian</td>
-        <td>081234657890</td>
-        <td>Surabaya</td>
-      </tr>
-    </table>
+    <!-- INI SECTION PENGALAMAN KERJA -->
+    <section>
+      <h3 class="title-1">WORK EXPERIENCE</h3>
+      <section>
+        <h4 class="title-2">CORE INITIATIVE | FRONT-END DEVELOPER</h4>
+        2020 - PRESENT<br />
+        <ul>
+          <li>
+            Assigned to make the point of sale website in terms of the design
+            and logic implementation.
+          </li>
+          <li>
+            Learn the best practice to use Vue.JS, React.JS, and Flutter as the
+            framework.
+          </li>
+          <li>Working as a team.</li>
+        </ul>
+
+        Responsibilities:<br />
+        <ul>
+          <li>
+            Participated in a weekly meeting to give updates and discuss the
+            next step.
+          </li>
+          <li>
+            Investigated and fixed some bug issues of main features that
+            happened in production.
+          </li>
+          <li>
+            Organized files and refactored codes to achieve readability,
+            reusability, maintainability, and scalability.
+          </li>
+          <li>
+            Configure the app setting to be more robust and able to adapt to the
+            new feature.
+          </li>
+          <li>Several back-end integrations.</li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- INI SECTION INTEREST -->
+    <section>
+      <h3 class="title-1">ADDITIONAL SKILL & INTERESTS</h3>
+      <section>
+        <ol>
+          <li>Android development (Flutter, React-Native, Kotlin, etc)</li>
+          <li>HTML and CSS competencies</li>
+          <li>
+            Various programming languages including Python, Java, Javascript,
+            etc.
+          </li>
+          <li>Business development</li>
+          <li>Git</li>
+          <li>MySQL and PostgreSQL competencies</li>
+        </ol>
+      </section>
+    </section>
+
+    <!-- INI SECTION ORGANIZATION EXPERIENCE -->
+    <section>
+      <h3 class="title-1">ORGANIZATION EXPERIENCE</h3>
+      <section>
+        <table>
+          <tr>
+            <th>Nama Organisasi</th>
+            <th>Jabatan</th>
+            <th>Tahun Keanggotaan</th>
+          </tr>
+          <tr>
+            <td>FUKI Fasilkom UI</td>
+            <td>Kepala Kontrol Internal</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>BEM Fasilkom UI</td>
+            <td>Deputi Departemen Akpem</td>
+            <td>2019</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+    </section>
   </body>
 </html>
