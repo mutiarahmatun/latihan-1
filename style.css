@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(253, 185, 200);
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.title-1 {
+  color: black;
+  text-align: left;
+  font-size: 30px;
+}
+
+.title-2 {
+  color: black;
+  text-align: left;
+  font-size: 22px;
+}
+
+#idContent1 {
+  font-family: verdana;
+  font-size: 14px;
+  color: black;
+}
+
+#idContent2 {
+  font-family: verdana;
+  font-size: 10px;
+  color: green;
+}
+
+table,
+tr,
+th,
+td {
+  border-style: groove;
+}
